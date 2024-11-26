@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const CLIENT_ID = '';
-const CLIENT_SECRET = '';
+const CLIENT_ID = '5466d0dec9534bb9aece6554c842444e';
+const CLIENT_SECRET = '15c973fe050341e7857a2b1aa83e2dda';
 const REDIRECT_URI = 'http://localhost:3000/';
 const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=code&redirect_uri=${REDIRECT_URI}&scope=user-read-recently-played user-top-read`;
 
